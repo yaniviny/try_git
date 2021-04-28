@@ -22,3 +22,5 @@ pinukResize(){
   # echo "<img src=\"$uniq_file_name\" srcset=\"flower-small.jpg 480w, flower-large.jpg 1080w\" sizes=\"50vw\">"
   echo "<img src=\"$uniq_file_name\" srcset=\"${srcset_string:0:-2}\" sizes=\"50vw\">"
 }
+
+bla bla
